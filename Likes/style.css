@@ -1,0 +1,23 @@
+.post {
+    border: 3px solid black;
+    width: 450px;
+    height: 125px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-btn{
+    background-color: gold;
+    box-shadow: 3px 3px black;
+    font-size: 1em;
+    padding: 5px 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 20px;
+}

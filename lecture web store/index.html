@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xena's Web Fun Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="row">
+                <img src="marquise_rose_gold_arrow_left-01 - Copy.png" alt="left" onclick="switchImg02">
+                <img src="ba77447158910898e878725aafa9229d.jpg" alt="logos" is="logo">>
+                <img src="marquise_rose_gold_arrow_left-01.png" alt="right" onclick="switchImg01">
+            </div>
+            <h1>Xena's Web Fun Store</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="">About</a>
+        </nav>
+    </header>
+    <div class="column grey">
+        <h2 onclick="hide(this)">Products</h2>
+        <div class="row">
+            <div class="column pink">
+                <img src="AVO+BAND.jpg" alt="avocado band">
+                <p>Avocado Band</p>
+                <p>$25.99</p>
+            </div>
+            <div class="column pink">
+                <img src="CHERRY+BAND.jpg" alt="cherry band">
+                <p>Cherry Band</p>
+                <p>$25.99</p>
+            </div>
+            <div class="column pink">
+                <img src="PEACH+BAND.jpg" alt="peach band">
+                <p>$20.99</p>
+                <p></p>
+            </div>
+            <div class="column pink">
+                <img src="Facetune_08-08-2021-20-17-35.jpg" alt="band bundle">
+                <p>Band Bundle</p>
+                <p>$64.99</p>
+            </div>
+            <div class="column pink">
+                <img src="PenultimateFullSizeRender.jpg" alt="Peach Bar Pad">
+                <p>Peach Bar Pad</p>
+                <p>$29.99</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Get in Touch</h3>
+        <form>
+            <section>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Name">
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email">
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>>
+            </section>
+            <button onclick="alertBox()">Submit</button>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

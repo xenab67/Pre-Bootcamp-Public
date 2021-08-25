@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+body {
+    font-family:'Urbanist',sans-serif ;
+}
+.top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#logo {
+    background-color: #05d4b4;
+    border-radius: 10%;
+}
+.search{
+    width:500px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    outline: none;
+}
+.top h1 {
+    font-size: 2.5em;
+    font-family:'Kaisei Opti',serif ;
+}
+#search-img{
+    position: absolute;
+    margin-left: 750px;
+    height: 40px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.discover{
+    display:flex;
+}
+.discover-text{
+    background-color:#05d4b4 ;
+    color: white;
+    font-size: 2.4em;
+    padding: 20px;
+    width: 250px;
+    height: 285px;
+    text-align: center;
+}
+.discover-text img {
+    height: 50px;
+    vertical-align: middle;
+}
+.column{
+    display: flex;
+    flex-direction: column; justify-content: space-between;
+}
+.col-text{
+    background-color: #05d4b4;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 40px;
+    padding: 10px 25px 25px 25px;
+}
+.col-text img{
+    vertical-align: middle;
+}
+.row-2{
+    display: flex;
+    justify-content: space-around;
+    background-color:#aae8d8;
+    height: 250px;
+}
+.plant img {
+    height: 130px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.plant {
+    text-align: center;
+    font-size: 1.2em;
+}
+.alert{
+    background-color: white;
+    position:fixed;
+    bottom: 15px;
+    border: 3px solid black;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 955px;
+    font-size: 1.3em;
+    padding: 20px;
+}
+.alert-btn{
+    background-color:#05d4b4 ;
+    color: white;
+    box-shadow: 3px 3px black;
+    width: 120px;
+    height: 30px;
+    font-size: .8em;
+    border: 2px solid black;
+    cursor: pointer;
+}

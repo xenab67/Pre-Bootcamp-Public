@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <input type id="search" name="search" placeholder="Search"="search">
+            <button class="login" onclick="logOut(this)">Login</button>
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="definition">
+                    <div class="def-col">
+                        <p class="term">ninja</p>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: <i>ninjas</i></p>
+                        <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="main-col">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="dojo">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button id="defined" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+            <div class="definition">
+                <div class="def-col">
+                    <p class="term">ninja</p>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: <i>ninjas</i></p>
+                    <button class="likes">37 likes</button>
+                </div>
+                <div class="main-col">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

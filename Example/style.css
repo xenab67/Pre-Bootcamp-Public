@@ -1,0 +1,36 @@
+.nav {
+    width: 900px;
+    height: 60px;
+    background-color: #373231;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+a {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.btn {
+    background-color: #16a6c7;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+.nav-title {
+    margin-left: 20px;
+}

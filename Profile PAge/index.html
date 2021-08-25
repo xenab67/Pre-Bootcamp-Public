@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="button">Sign Out</button>
+        </div>
+        <div class="contain-2">
+            <div class="col-1">
+                <div class="row>">
+                    <div class="user-card">
+                        <div class="top-user">
+                            <img src="arry-s.jpg" alt="pic of arry">
+                        </div>
+                        <div class="main-user">
+                            <h1>Jane Doe</h1>
+                            <h2><img src="map-marker.png" alt="map-marker">Seattle</h2>
+                            <p>Developer | Engineer | Problem Solver <br>
+                                Master of shadows and the Internet!</p>
+                            <a href="#" onclick="edit(this)"><img class="gear" src="gear.png" alt="gear">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="requests">
+                        <div class="top-requests">
+                            <button class="btn-2">2</button>
+                            <h2>Connection Requests</h2>
+                        </div>
+                        <div class="main-requests">
+                            <div id="request-1">
+                                <img class="friend" src="alayne-s.jpg" alt="picture of Alayne">
+                                <p>Alayne S</p>
+                                <img class="accept" src="accept-circle.png" alt="accept" onclick="hide(this)">
+                                <img class="deny" src="close-circle.png" alt="Deny" onclick="hide(this)">
+                            </div>
+                            <div id="request-2">
+                                <img class="friend" src="adrien-s.jpg" alt="Picture of Adrien">
+                                <p>Adrien S</p>
+                                <img class="accept" src="accept-circle.png" alt="accept" onclick="hide(this)">
+                                <img class="deny" src="close-circle.png" alt="Deny" onclick="hide(this)">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="connections">
+                        <div class="top-connections">
+                            <button class="btn-3">500+</button>
+                            <h2>Your Connections</h2>
+                        </div>
+                        <div class="main-connections">
+                            <div class="connect">
+                                <img class="friend" src="jane-m.jpg" alt="picture of jane">
+                                <p>Jane M</p>
+                                </div>
+                            <div class="connect">
+                                <img class="friend" src="anne-s.jpg" alt="picture of anne">
+                                <p>Anne S</p>
+                            </div>
+                            <div class="connect">
+                                <img class="friend" src="phil-s.jpg" alt="picture of phil">
+                                <p>Phil S</p>
+                            </div>
+                            <div class="connect">
+                                <img class="friend" src="todd-s.jpg" alt="picture of todd">
+                                <p>Todd S</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div id="bottom-connect">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu">
+                    <div class="top-edu">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="main-edu">
+                        <span class="main-text">Coding Dojo - Full Stack Bootcamp</span><br>
+                        <span class="date">Dec 2019 - Mar 2020</span><br>
+                        <span class="info">Triple black belt in python, MERN, and C#...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

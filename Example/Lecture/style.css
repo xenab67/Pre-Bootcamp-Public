@@ -1,0 +1,35 @@
+* {
+    border: 1px dotted red;
+}
+
+body{
+    background-color: lightskyblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 250px;
+}
+header, footer, #main {
+    width: 95%;
+    background-color: bisque;
+    min-height: 100px;
+    margin: 20px;
+}
+#main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    height: 10px;
+    background-color: darksalmon;
+    width: 95%;
+}
+#about, #imgs {
+    background-color: darksalmon;
+    width: 95%;
+}
