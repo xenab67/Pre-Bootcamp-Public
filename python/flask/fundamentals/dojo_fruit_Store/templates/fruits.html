@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>Dojo Fruit Store Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
 </head>
 <body>
@@ -24,8 +25,22 @@
         <section class="jumbotron text-center">
           <div class="container">
             <h1 class="jumbotron-heading">Dojo Fruits</h1>
-            <p>Please figure out how to display the images here...</p>
-
+            <!-- <p>Please figure out how to display the images here...</p> -->
+            <div class="apple">
+            <img src="{{url_for('static', filename='img/apple.png')}}" class="img-fluid rounded-circle" alt="apple">
+            <p>Apple</p>
+            </div>
+            <div class="blackberry">
+            <img src="{{url_for('static', filename='img/blackberry.png')}}" class="img-fluid rounded-circle" alt="blackberry">
+            <p>Blackberry</p>
+            </div>
+            <div class="raspberry">
+            <img src="{{url_for('static', filename='img/raspberry.png')}}" class="img-fluid rounded-circle" alt="raspberry">
+            <p>Raspberry</p>
+            </div>
+            <div class="strawberry">
+            <img src="{{url_for('static', filename='img/strawberry.png')}}" class="img-fluid rounded-circle" alt="strawberry">
+            <p>Strawberry</p>
             <p>
               <a href="/" class="btn btn-primary my-2">Go back</a>
             </p>
@@ -33,6 +48,6 @@
         </section>
   
       </main>
-      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
