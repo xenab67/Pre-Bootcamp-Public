@@ -1,0 +1,37 @@
+-- INSERT INTO dojos (name)
+-- VALUES ('Home Dojo');
+-- INSERT INTO dojos (name)
+-- VALUES ('School Dojo');
+-- INSERT INTO dojos (name)
+-- VALUES ('Theater Dojo');
+
+-- DELETE FROM dojos;
+
+-- INSERT INTO dojos (name)
+-- VALUES ('Red Dojo'), ('Yellow Dojo'), ('Green Dojo');
+
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('Xena', 'Ball', '23', '4'),
+-- ('Austin', 'Patton', '23', '4'),
+-- ('Bentley', 'Patton', '1', '4');
+
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('Kitten', 'Burp', '64', '5'),
+-- ('Boop', 'Pat', '43', '5'),
+-- ('Bee', 'Pine', '11', '5');
+
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('Kpop', 'Ball', '33', '6'),
+-- ('Aiden', 'Krina', '54', '6'),
+-- ('Kurt', 'Tin', '66', '6');
+
+-- SELECT * FROM dojos
+-- LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+-- WHERE dojo_id= 4;
+
+-- SELECT * FROM dojos
+-- LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+-- WHERE dojos.id = 6;
+
+-- SELECT * FROM dojos
+-- WHERE dojos.id= (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);

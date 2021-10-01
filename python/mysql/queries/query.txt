@@ -1,0 +1,12 @@
+UPDATE twitter.users 
+SET first_name = 'Xena'
+WHERE id= 2;
+
+SELECT first_name, last_name FROM users
+ORDER BY birthday;
+
+INSERT INTO twitter.users (first_name, last_name)
+VALUES ('Xena', 'Ball');
+
+DELETE FROM users
+WHERE id=6; 
