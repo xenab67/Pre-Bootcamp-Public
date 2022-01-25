@@ -7,24 +7,18 @@
     <title>All Users</title>
 </head>
 <body>
-    <h1>All Users</h1>
     <table>
         <thead>
             <tr>
-                <th>ID</th>
+                <th>Id</th>
                 <th>Full Name</th>
                 <th>Email</th>
                 <th>Created At</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                (% for user in users %)
-                <td>{{ user.first_name, user.last_name }}</td>
-                <td>{{ user.email_address }}</td>
-                <td>{{ user.created_at }}</td>
-            </tr>
-            {% endfor %}
+            (% for user in Users)
+            <tr></tr>
         </tbody>
     </table>
 </body>
