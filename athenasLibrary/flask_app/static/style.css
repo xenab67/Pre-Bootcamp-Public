@@ -1,0 +1,61 @@
+.table{
+    background-color:#d9b99b;
+}
+a {
+    color: white;
+}
+a:hover{
+    color:black;
+}
+.dash{
+    background-color: #faf8f6;
+    background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.navigation{
+    background-color: #c3b091;
+background-image: url("https://www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.welcome{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 60px;
+}
+a.navi{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+}
+.table-text{
+    font-family: 'Montserrat', sans-serif;
+}
+.a-nav{
+    font-size: 19px;
+}
+img{
+    width:800px;
+    height: 750px;
+}
+.show{
+    background-color: #faf8f6;
+    background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.form-color{
+    background-color: #a69279;
+    border-radius: 9px;
+}
+.btn{
+    background-color: #d9b99b;
+    border: 3px solid white;
+}
+.card{
+    background-color:#d9b99b ;
+}
+.card-body{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+.gif-owl{
+    width: 550px;
+    height: 270px;
+}
